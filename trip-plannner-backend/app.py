@@ -1,4 +1,4 @@
-from msvcrt import setmode
+# from msvcrt import setmode
 from pyexpat import model
 import re
 import uuid
