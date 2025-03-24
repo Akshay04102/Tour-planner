@@ -22,7 +22,7 @@ load_dotenv()  # This loads variables from your .env file into the environment
 app = Flask(__name__)
 
 # Enable CORS for all routes, only allowing requests from localhost:5173
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": "https://tour-planner-cgsr.onrender.com"}})
 
 # Load Firebase Admin SDK credentials
 cred = credentials.Certificate("trip-planner-12345-firebase-adminsdk-fbsvc-b2990cda7d.json")
